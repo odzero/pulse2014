@@ -1,4 +1,4 @@
-
+﻿
 FTP
 Transmisión de archivos
 Hosting barato normal --> /public_html/ <-- FTP
@@ -31,5 +31,5 @@ Repositorio de código GITHUB (master)
 		* master
 			--- MERGE (experimental - master)
 		* experimental local
-	* master (servidor.com) REPO PRODUCCION
+	* master (servidor.com) REPO PRODUCCION23
 
