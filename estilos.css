@@ -106,6 +106,85 @@ nav ul li a
 }
 
 
+footer 
+{
+	background: #22BCE0;
+	text-align: center;
+	color: rgba(255,255,255,0.7);
+	padding: 1em;
+}
+
+footer p:first-child
+{
+	margin-bottom: 0;
+}
+
+footer p:last-child
+{
+	margin-top: 0;
+}
+
+footer p:last-child:before
+{
+	content: "- ";
+}
+
+footer p:last-child:after
+{
+	content: " -";
+}
+
+#contenido
+{
+	margin: 1em;
+}
+
+#contenido .item
+{
+	background: white;
+	border-bottom: 3px solid #22BCE0;
+	overflow: hidden;
+
+}
+
+#contenido .item .imagen_item img
+{
+	width: 96px;
+}
+
+#contenido .item .imagen_item
+{
+	float: left;
+	margin: 0 1em 0 0;
+
+}
+
+#contenido .item .titulo_item
+{
+	font-size: 1.2em;
+	font-style: italic;
+}
+
+#contenido .item .titulo_item a
+{
+	color: #444;
+	text-decoration: none;
+}
+
+#contenido .item .author_item
+{
+	color: #AAA;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
