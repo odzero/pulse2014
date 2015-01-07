@@ -143,7 +143,9 @@ footer p:last-child:after
 {
 	background: white;
 	border-bottom: 3px solid #22BCE0;
-	overflow: hidden;
+	min-height: 135px;
+	position: relative;
+	margin-bottom: 3em;
 
 }
 
@@ -163,6 +165,7 @@ footer p:last-child:after
 {
 	font-size: 1.2em;
 	font-style: italic;
+	padding-top: 1em; 
 }
 
 #contenido .item .titulo_item a
@@ -174,20 +177,62 @@ footer p:last-child:after
 #contenido .item .author_item
 {
 	color: #AAA;
+
+}
+
+#contenido .item .author_item a
+{
+	text-decoration: none;
+
 }
 
 
 
+#contenido .item .datos_item
+{
+	text-align: right;
+	margin: 1em 1em 0 0;
+}
 
+#contenido .item .datos_item .tag_item
+{
+	background: #F4502A;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0.2em 0.5em;
+	border-radius: 0.2em 0.5em;
+	float: left;
+}
 
+#contenido .item .datos_item .fecha_item
+{
+	color: #AAA;
+}
 
+#contenido .item .votacion
+{
+	position: absolute;
+	top: 100%;
+	background: white;
+	width: 90%;
+	left: 5%;
+	margin-top: 7px;
+	padding: 0.2em 0.5em;
+	border-radius: 0 0 0.5em 0.5em;
+}
 
+#contenido .item .votacion .comentarios_item,
+#contenido .item .votacion .guardar_item
+{
+	float: right;
+}
 
-
-
-
-
-
+#contenido .item .votacion .up,
+#contenido .item .votacion .down
+{
+	float: left;
+}
 
 
 
