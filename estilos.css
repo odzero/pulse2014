@@ -8,4 +8,6 @@ body
 {
 	background: #EEEEEE;
 	/*background-color: #EEEEEE; es otra manera de poner el c. fondo*/
+	font-family: Arial;
+	font-size: 16px;
 }
